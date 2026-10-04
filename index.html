@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sylphara Digital LLC | Apple Wallet Business Cards & NFC Solutions</title>
+    <style>
+        :root {
+            --primary: #059669;
+            --primary-dark: #047857;
+            --bg-color: #f8fafc;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --card-bg: #ffffff;
+            --border-color: #e2e8f0;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+        header {
+            background: var(--card-bg);
+            border-bottom: 1px solid var(--border-color);
+            padding: 20px 0;
+            text-align: center;
+        }
+        .logo-container img {
+            max-width: 180px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .hero {
+            text-align: center;
+            padding: 40px 0;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            color: #0f172a;
+            margin-bottom: 15px;
+        }
+        .hero p {
+            font-size: 1.15rem;
+            color: var(--text-muted);
+            max-width: 650px;
+            margin: 0 auto 30px auto;
+        }
+        .cta-btn {
+            display: inline-block;
+            background-color: var(--primary);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+        .cta-btn:hover { background-color: var(--primary-dark); }
+        
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin: 50px 0;
+        }
+        .service-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .service-card h3 {
+            color: #0f172a;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+        .service-card ul {
+            list-style-type: none;
+            margin-top: 15px;
+        }
+        .service-card ul li {
+            margin-bottom: 8px;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+        .service-card ul li strong {
+            color: var(--text-main);
+        }
+        
+        footer {
+            background: var(--card-bg);
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            padding: 40px 0;
+            margin-top: 60px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+        footer p { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <!-- Replace 'logo.png' with your downloaded logo filename once placed in your repo -->
+            <img src="logo.png" alt="Sylphara Digital LLC Logo">
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="hero">
+            <h1>Modern Digital Passes &amp; NFC Business Solutions</h1>
+            <p>Sylphara Digital provides seamless, app-free Apple Wallet business passes and high-impact physical NFC smart cards designed for modern teams.</p>
+            <a href="mailto:contact@sylpharadigital.com" class="cta-btn">Contact Us</a>
+        </section>
+
+        <section class="services">
+            <div class="service-card">
+                <h3>Base Digital Roster</h3>
+                <p>Perfect for inside sales, remote teams, and customer service reps looking for instantaneous digital sharing.</p>
+                <ul>
+                    <li><strong>Apple Wallet Integration</strong> (.pkpass)</li>
+                    <li>QR Code instant sharing</li>
+                    <li>Up to 10 employee passes included</li>
+                </ul>
+            </div>
+            
+            <div class="service-card">
+                <h3>VIP "Tap &amp; Go" NFC Add-On</h3>
+                <p>High-touch physical custom-etched smart cards for field reps and leadership who shake hands in person.</p>
+                <ul>
+                    <li><strong>Custom Laser-Etched Cards</strong></li>
+                    <li>Instant tap-to-load profiles</li>
+                    <li>Dynamic web-pointer backend updates</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p><strong>Sylphara Digital LLC</strong></p>
+        <p>Inquiries: contact@sylpharadigital.com</p>
+        <p>&copy; 2026 Sylphara Digital LLC. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
