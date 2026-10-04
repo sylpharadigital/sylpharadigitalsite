@@ -8,6 +8,7 @@
         :root {
             --primary: #059669;
             --primary-dark: #047857;
+            --accent-green: #10b981;
             --bg-color: #f8fafc;
             --text-main: #1e293b;
             --text-muted: #64748b;
@@ -24,13 +25,28 @@
         header {
             background: var(--card-bg);
             border-bottom: 1px solid var(--border-color);
-            padding: 20px 0;
+            padding: 30px 0;
             text-align: center;
         }
-        .logo-container img {
-            max-width: 180px;
-            height: auto;
-            margin-bottom: 10px;
+        .brand-logo-text {
+            font-size: 1.8rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        .brand-sylphara {
+            color: var(--primary);
+        }
+        .brand-digital {
+            color: var(--accent-green);
+        }
+        .brand-sub {
+            font-size: 0.75rem;
+            letter-spacing: 2px;
+            color: var(--text-muted);
+            margin-top: 4px;
+            text-transform: uppercase;
         }
         .container {
             max-width: 900px;
@@ -110,10 +126,10 @@
 <body>
 
     <header>
-        <div class="logo-container">
-            <!-- Replace 'logo.png' with your downloaded logo filename once placed in your repo -->
-            <img src="logo.png" alt="Sylphara Digital LLC Logo">
+        <div class="brand-logo-text">
+            <span class="brand-sylphara">Sylphara</span> <span class="brand-digital">Digital</span>
         </div>
+        <div class="brand-sub">Software &amp; Digital Solutions</div>
     </header>
 
     <div class="container">
@@ -128,7 +144,7 @@
                 <h3>Base Digital Roster</h3>
                 <p>Perfect for inside sales, remote teams, and customer service reps looking for instantaneous digital sharing.</p>
                 <ul>
-                    <li><strong>Apple Wallet Integration</strong> (.pkpass)</li>
+                    <li><strong>Apple Wallet Integration</strong></li>
                     <li>QR Code instant sharing</li>
                     <li>Up to 10 employee passes included</li>
                 </ul>
@@ -147,9 +163,7 @@
     </div>
 
     <footer>
-        <p><strong>Sylphara Digital LLC</strong></p>
-        <p>Inquiries: contact@sylpharadigital.com</p>
-        <p>&copy; 2026 Sylphara Digital LLC. All rights reserved.</p>
+        <p>Sylphara Digital LLC &bull; contact@sylpharadigital.com</p>
     </footer>
 
 </body>
